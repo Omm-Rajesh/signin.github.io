@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header{
+    background-image: url(../sign.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.Sign-in{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 8% auto 0;
+    padding: 40px;
+    background: #fff;
+    color: blue;
+}
+.Sign-in input{
+    border-radius: 30px;
+    margin: 10px;
+    width: 70%;
+    padding: 10px;
+}
+.Sign-in p{
+    text-align: right;
+}
+.sign_btn{
+    border-radius: 20px;
+    width: 70%;
+    background-color: blue;
+    color: black;
+    font-family: Impact;
+    padding: 7px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.Sign-in h2{
+    color: black;
+    margin: 2px;
+}
+.Sign-in img{
+    width: 70px;
+}
