@@ -23,6 +23,10 @@ header{
     background: #fff;
     color: blue;
 }
+.Sign-in h1{
+    font-size: large;
+    font-style:italic;
+}
 .Sign-in input{
     border-radius: 30px;
     margin: 10px;
