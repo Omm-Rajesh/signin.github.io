@@ -9,9 +9,17 @@ function validate()
     
         
     }
+    else if(username=="Rajesh")
+           {
+    if(password=="Wxyz321@")
+    {
+        alert ("wrong password")
+        
+    } 
+           }
     else
     {
-        alert("login failed");
+        alert("Wrong ID");
         return false;
         
     }
