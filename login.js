@@ -13,9 +13,15 @@ function validate()
            {
     if(password=="Wxyz321@")
     {
-        alert ("wrong password")
+        alert ("login successful")
         
-    } 
+    }   else
+    {
+        alert("Wrong password");
+        return false;
+        
+    }
+               
            }
     else
     {
