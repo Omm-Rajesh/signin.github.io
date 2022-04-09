@@ -5,7 +5,7 @@ function validate()
     if(username=="Rajesh" && password=="Wxyz321@")
     {
     
-        console.log("login successful");
+        alert("login successful");
     
         
     }
